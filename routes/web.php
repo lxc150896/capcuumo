@@ -21,3 +21,4 @@ Route::post('/ketqua', [App\Http\Controllers\KetQuaController::class, 'postKetQu
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/colortheme/api/themes', [App\Http\Controllers\ImageController::class, 'index']);
